@@ -18,19 +18,19 @@
 <body>
     <main>
         <div id="top-div">
+			<div>
+			<h1>La cave à cabu</h1>
+			<h3>Mon petit espace d'expression sur le net. :)</h3>
+			</div>
             <div id="clock-div">
                 <h1 id="clock">
                     00/00/0000
                     00:00:00
                 </h1>
             </div>
-
-            <form id="search-form" action="https://duckduckgo.com">
-                <div id="search-bar-wrapper">
-                    <input id="search-bar" name="q" type="text" title="Search" />
-                    <button id="search-bar-btn" type="submit">&#128270;</button>
-                </div>
-            </form>
+			<div>
+			{{ content }}
+			</div>
         </div>
         <div id="links-container">
             <section class="link-section">
@@ -78,6 +78,7 @@
                 </ul>
             </section>
         </div>
+		
     </main>
 
     <script src="js/main.js"></script>
